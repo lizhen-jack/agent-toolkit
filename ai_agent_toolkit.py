@@ -179,7 +179,7 @@ if __name__ == "__main__":
 """,
         "fclass": """
 class {ClassName}:
-    """{ClassName}"""
+    '''{ClassName}'''
 
     def __init__(self):
         self.{cursor} = None
